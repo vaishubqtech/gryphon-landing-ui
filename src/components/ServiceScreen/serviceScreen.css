@@ -1,0 +1,129 @@
+.accordion-container {
+    width: 100%;
+    /* max-width: 600px; */
+    margin:50px auto;
+    background: black;
+    color: white;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #666;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding:25px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding: 0 15px;
+  }
+  
+  .accordion-content.open {
+    max-height: max-content;
+    opacity: 1;
+    padding: 15px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  .accordion-header .title{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3.2rem;
+    font-style: italic;
+    transition: transform 0.2s ease-in-out;
+  } 
+  .accordion-header .title:hover {
+    transform: scale(1.05);
+  }
+  .accordion-header .icon{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 3.2rem;
+  } 
+  /* Expanded Content */
+.accordion-expanded-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Branding Section */
+  .accordion-expanded-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .accordion-expanded-content p {
+    font-size: 18px;
+    max-width: 400px;
+  }
+  
+  /* Details Link */
+  .details-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .details-link:hover {
+    opacity: 0.7;
+  }
+  
+  /* Image Gallery */
+  .image-gallery {
+    display: flex ;
+        margin-top: 90px;
+        justify-content: end;
+        max-width: 500px;
+  }
+  
+  .image-gallery img {
+    width: 195px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .open-img-1{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(0px);
+    transform-style: preserve-3d;
+    object-fit: cover;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+  }
+  .open-img-2{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(0px);
+    transform-style: preserve-3d;
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    margin-left: 25px;
+  }
+  .expand-cont{
+    width: 40%;
+
+  }
+  .expand-cont p{
+    max-width: 500px;
+    letter-spacing: -.4px;
+    font-size: 20px;
+    line-height: 1.6em;
+    font-weight: 600;
+  }
