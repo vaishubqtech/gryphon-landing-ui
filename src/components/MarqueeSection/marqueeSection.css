@@ -1,0 +1,41 @@
+.marquee-img{
+    object-fit: cover;
+    width: 400px;
+    height: 420px;
+}
+.marq-sec{
+    /* margin: 50px; */
+    background-color: #000;
+    padding: 70px 0 0;
+}
+.mar-get-in-touch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 90px 0;
+    width: 90%;
+    margin: auto;
+}
+.marq-git-cont{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25em;
+    color: #fff;
+}
+.details-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 2px solid white; */
+    border-bottom: none;
+    transition: opacity 0.3s ease-in-out;
+    width: 180px;
+  }
+  
+  .details-link:hover {
+    opacity: 0.7;
+  }

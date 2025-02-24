@@ -1,0 +1,70 @@
+.get-in-touch-container {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .main-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .floating-image1 {
+    position: absolute;
+    width: 150px;
+    transform: rotate(-10deg);
+  }
+  .floating-image2 {
+    position: absolute;
+    width: 175px;
+    transform: rotate(-10deg);
+  }
+  
+  .floating-image1 img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  .floating-image2 img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .left {
+    top: 27%;
+    left: 3%;
+    transform: rotate(-9deg);
+  }
+  
+  .right {
+    top: 37%;
+    right: 10%;
+    transform: rotate(5deg);
+  }
+  
+  .g-i-t-h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 70%;
+    margin: 50px auto 20px;
+  }
+  
+  .cta-button {
+    background: transparent;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+  
+  .cta-button:hover {
+    /* background: gray; */
+  }
+  

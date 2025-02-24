@@ -11,7 +11,7 @@ const HomePage = () => {
         </div>
       </nav>
       <div className="gryphon-content">
-        <h1 className="gryphon-title">GRYPHON</h1>
+        <h1 className="gryphon-title">gryphon</h1>
         <p className="gryphon-subtitle">CREATIVE STUDIO</p>
       </div>
       <button className="gryphon-contact">GET IN TOUCH &rarr;</button>

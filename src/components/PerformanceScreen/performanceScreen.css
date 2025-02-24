@@ -15,11 +15,11 @@
   transform-style: preserve-3d;
   opacity: 1;
   filter: blur(0px);
-  font-size: 7.4rem;
+  font-size: 5rem;
   font-weight: bold;
   line-height: 1.1;
   text-transform: uppercase;
-  width: 60%;
+  width: 50%;
 }
 
 .perf-card-grid {
@@ -28,6 +28,7 @@
   flex-wrap: wrap;
   padding: 20px;
   background-color: #000;
+  justify-content: space-between;
 }
 
 .perf-card {
@@ -38,7 +39,7 @@
   text-align: left;
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease;
-  width: 29%;
+  width: 28%;
   height: 250px;
   margin: 20px 10px;
 }
@@ -78,7 +79,7 @@
 }
 .pref-image-card {
   object-fit: cover;
-  width: 30%;
+  width: 29.5%;
   height: 288px;
   margin: 20px;
   border-radius: 16px;

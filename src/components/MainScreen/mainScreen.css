@@ -36,7 +36,9 @@
   }
   
   .gryphon-title {
-    font-size: 16rem;
+    text-transform: uppercase;
+    font-family: "Unbounded", serif!important;
+    font-size: 11rem;
     font-weight: bold;
     margin: 0;
   }
